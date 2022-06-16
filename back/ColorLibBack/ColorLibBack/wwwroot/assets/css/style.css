@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#section1{
+    background-image: url("../img/pexels-ella-olsson-1640777.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.mt-20{
+    margin-top: 20%;
+}
+
+.pt-20{
+    padding-top: 20%;
+}
+
+.mt-10{
+    margin-top: 10%;
+}
+
+.pt-10{
+    padding-top: 10%;
+}
+.pb-20{
+    padding-bottom: 20%;
+}
+.h20vh{
+    height: 20vh;
+}
+
+.productimg{
+    width: 100px;
+    height: 100px;
+}
+
+
+.asideactive{
+    display:block;
+    top:0px;
+    right:0px;
+    height:100vh;
+    width:10%;
+    background:white;
+    position:absolute;
+    position: fixed;
+    
+}
+
+.asidedeactive{
+    display: none;
+}
+
+aside div ul{
+    list-style-type: none;
+}
